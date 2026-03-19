@@ -3034,10 +3034,10 @@ endpoints:
       apiKey: "${RAG_PROXY_API_KEY}"
       baseURL: "https://${RAG_PROXY_HOST}/v1"
       models:
-        default: ["gemini-2.0-flash"]
+        default: ["gemini-2.5-flash"]
         fetch: false
       titleConvo: true
-      titleModel: "gemini-2.0-flash"
+      titleModel: "gemini-2.5-flash"
       summarize: false
       modelDisplayLabel: "Assistente RAG"
       iconURL: "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg"
